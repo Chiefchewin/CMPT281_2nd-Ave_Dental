@@ -1,0 +1,73 @@
+body {
+    background-color: #DFF5CE;
+    font-family: 'Raleway', sans-serif;
+    }
+
+header {
+    background-color: #86b094; /* Always use green */
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer{
+    background-color: #86b094; /* Always use green */
+    color: black;
+}
+
+.container{
+    text-align: center; 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto; 
+    
+}
+
+#nav-logo {
+    height: 60px; 
+    margin-right: 20px; /* Space between logo and nav items */
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex; 
+}
+
+#navbar li {
+    padding: 0 15px; /* Adds spacing between nav items */
+}
+
+#navbar li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+#navbar li a:hover {
+    color: darkgreen;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center; /* This vertically centers the text with the image */
+    background-color: #DFF5CE; /* Your background color */
+    font-family: 'Raleway', sans-serif;
+}
+
+.image-text-container img {
+    width: 50%; /* Adjust as needed */
+    height: auto; /* Keeps the aspect ratio of the image */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.image-text-container p {
+    /* Additional styling for the text, if needed */
+}
